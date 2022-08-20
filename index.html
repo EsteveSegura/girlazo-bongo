@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Bongo</title>
+</head>
+
+<body>
+    <audio controls="controls" class="hide" id="audioD">
+        <source src="./assets/bongoD.mp3" type="audio/mpeg" />
+    </audio>
+    <audio controls="controls" class="hide" id="audioA">
+        <source src="./assets/bongoA.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="app">
+        <div class="header">Push <strong>A</strong> or <strong>D</strong></div>
+        <div class="girlazo">
+            <img src="./assets/base.png" class="asset" alt="GiR Base">
+            <img src="./assets/ArmLeftUp.png" style="z-index:-1;" class="asset" id="LeftArmUp" alt="GiR Left Arm Up">
+            <img src="./assets/ArmRightUp.png" style="z-index:1;" class="asset" id="RightArmUp" alt="GiR Right Arm Up">
+            <img src="./assets/ArmLeftDown.png" style="z-index:1;" class="asset hide" id="LeftArmDown"
+                alt="GiR Left Arm Down">
+            <img src="./assets/ArmRightDown.png" style="z-index:1;" class="asset hide" id="RightArmDown"
+                alt="GiR Right Arm Down">
+            <img src="./assets/bongo.png" style="z-index:-1;" class="asset" id="bongo" alt="Bongo">
+        </div>
+        <div class="footer">
+            Code: <a target="_blank" href="https://twitter.com/girlazote">@GiRLaZoTe</a>
+            Art: <a target="_blank" href="https://twitter.com/serpientemimosa">@SerpienteMimosa</a>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
